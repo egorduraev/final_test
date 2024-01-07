@@ -27,3 +27,26 @@ void print(string[] str) {
         Console.Write(str[i] + "”, “");
     }
 } 
+
+string[] str1 = {"Hello", "2", "world", ":-)"};
+string[] str2 = {"1234", "1567", "-2", "computer science"};
+string[] str3 = {"Russia", "Denmark", "Kazan"};
+
+string[] newStr1 = transformation(str1);
+string[] newStr2 = transformation(str2);
+string[] newStr3 = transformation(str3);
+
+print(str1);
+Console.Write(" → ");
+print(newStr1);
+Console.Write("\n");
+
+print(str2);
+Console.Write(" → ");
+print(newStr2);
+Console.Write("\n");
+
+print(str3);
+Console.Write(" → ");
+print(newStr3);
+Console.Write("\n");
